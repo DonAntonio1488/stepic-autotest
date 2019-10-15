@@ -23,11 +23,10 @@ try:
     input1.send_keys(y)
 	
     
-    # Отправляем заполненную форму
+    # Отправляем  форму
     button2 = browser.find_element_by_css_selector("button.btn")
     button2.click()
 
-    # Проверяем, что смогли зарегистрироваться
     # ждем загрузки страницы
     time.sleep(1)
 
